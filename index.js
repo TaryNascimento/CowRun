@@ -23,11 +23,11 @@ let colisao = false;
 let meusPontos = 0;
 
 function preload() {
-  imagemDaEstrada = loadImage("estrada.png");
-  imagemDoAtor = loadImage("ator-1.png");
-  imagemCarro = loadImage("carro-1.png");
-  imagemCarro2 = loadImage("carro-2.png");
-  imagemCarro3 = loadImage("carro-3.png");
+  imagemDaEstrada = loadImage("img/estrada.png");
+  imagemDoAtor = loadImage("img/ator-1.png");
+  imagemCarro = loadImage("img/carro-1.png");
+  imagemCarro2 = loadImage("img/carro-2.png");
+  imagemCarro3 = loadImage("img/carro-3.png");
   imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3, imagemCarro, imagemCarro2, imagemCarro3];
 
   somDaTrilha = loadSound("sons/trilha.mp3");
