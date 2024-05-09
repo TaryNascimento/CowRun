@@ -142,3 +142,4 @@ function pontosMaiorQueZero(){
   return meusPontos > 0;
 
 }
+
